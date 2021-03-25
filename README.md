@@ -1,5 +1,5 @@
 - ### Here we have created two ansible role `myapache & myloadbalncer`
-- ### `myapache` role configure the webserver for you
+- ### `myapache` role configure the webserver(httpd) for you
 - ### `myloadbalancer` role configure the loadbalancer(haproxy) for you 
 - ###  we have combined both role in one file `setup.yml` to run both role will run this file 
 - #### for more details you can visit my blog:-
