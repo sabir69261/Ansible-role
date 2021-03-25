@@ -1,0 +1,17 @@
+---
+# tasks file for myapache
+
+- package:
+     name: "{{ item }}"
+     state: present
+  loop:
+    - httpd
+    - php
+
+- copy:
+     dest: /var/www/html
+     src: files/index.php
+- service:
+     name: "{{ service_name }}"
+     state: started
+

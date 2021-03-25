@@ -1,0 +1,9 @@
+---
+# vars file for myloadbalancer
+#
+package_name: haproxy
+service_name: haproxy
+fsp: 8080
+bsp: 80
+
+   

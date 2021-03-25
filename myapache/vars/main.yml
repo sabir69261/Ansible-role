@@ -1,0 +1,5 @@
+---
+# vars file for myapache
+
+service_name: "httpd"
+
